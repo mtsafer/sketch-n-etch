@@ -1,0 +1,92 @@
+.nav{
+	text-align: center;
+}
+
+#mode{
+	text-align: center;
+}
+
+.header .btn, .dropdown{
+	color: white;
+	font-weight: bold;
+	display: inline-block;
+	text-transform: uppercase;
+}
+
+.dropdown-menu{
+	text-align: center;
+	border: none;
+	background-color: rgba(255,255,255,0);
+	box-shadow: none;
+}
+
+.dropdown-menu li{
+	width: 100%;
+	margin: 2px;
+}
+
+.main{
+	margin-top: 100px;
+}
+
+.square{
+	display: inline-block;
+}
+.row{
+	margin: auto;
+	width: 800px;
+	background-color: black;
+	text-align: center;
+}
+
+/* COLOR ASSIGNMENT */
+
+.base-red{
+	background-color: red;
+}
+.base-orange{
+	background-color: orange;
+}
+.base-yellow{
+	background-color: yellow;
+}
+.base-green{
+	background-color: green;
+}
+.base-blue{
+	background-color: blue;
+}
+.base-purple{
+	background-color: purple;
+}
+.base-black{
+	background-color: black;
+}
+.base-white{
+	background-color: white;
+}
+
+.sketch-red{
+	background-color: red;
+}
+.sketch-orange{
+	background-color: orange;
+}
+.sketch-yellow{
+	background-color: yellow;
+}
+.sketch-green{
+	background-color: green;
+}
+.sketch-blue{
+	background-color: blue;
+}
+.sketch-purple{
+	background-color: purple;
+}
+.sketch-black{
+	background-color: black;
+}
+.sketch-white{
+	background-color: white;
+}

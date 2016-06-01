@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Sketch n' Etch</title>
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+		<script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body>
+		<div class="header">
+			<div class="container">
+				<ul class="nav navbar">
+					<li id="resize" class="btn btn-primary">resize <i class="glyphicon glyphicon-fullscreen"></i></li>
+					<li id="reset" class="btn btn-primary">reset <i class="glyphicon glyphicon-trash"></i></li>
+					<div class="dropdown">
+						<button class="btn btn-primary dropdown-toggle" type="button"
+						data-toggle="dropdown">mode <i class="glyphicon glyphicon-wrench"></i></button>
+						<ul class="dropdown-menu">
+							<li id="solid" class="mode btn btn-primary">solid</li>
+							<li id="gradiant" class="mode btn btn-primary">gradiant</li>
+							<li id="trail" class="mode btn btn-primary">trail</li>
+						</ul>
+					</div>
+					<div class="dropdown">
+						<button class="btn btn-primary dropdown-toggle" type="button"
+						data-toggle="dropdown">base color <i class="glyphicon glyphicon-tasks"></i></button>
+						<ul class="dropdown-menu">
+							<li class="base btn btn-primary" id="black">black</li>
+							<li class="base btn btn-primary" id="white">white</li>
+							<li class="base btn btn-primary" id="red">red</li>
+							<li class="base btn btn-primary" id="orange">orange</li>
+							<li class="base btn btn-primary" id="yellow">yellow</li>
+							<li class="base btn btn-primary" id="green">green</li>
+							<li class="base btn btn-primary" id="blue">blue</li>
+							<li class="base btn btn-primary" id="purple">purlple</li>
+						</ul>
+					</div>
+					<div class="dropdown">
+						<button class="btn btn-primary dropdown-toggle" type="button"
+						data-toggle="dropdown">sketch color <i class="glyphicon glyphicon-tasks"></i></button>
+						<ul class="dropdown-menu">
+							<li class="sketch btn btn-primary" id="black">black</li>
+							<li class="sketch btn btn-primary" id="white">white</li>
+							<li class="sketch btn btn-primary" id="red">red</li>
+							<li class="sketch btn btn-primary" id="orange">orange</li>
+							<li class="sketch btn btn-primary" id="yellow">yellow</li>
+							<li class="sketch btn btn-primary" id="green">green</li>
+							<li class="sketch btn btn-primary" id="blue">blue</li>
+							<li class="sketch btn btn-primary" id="purple">purlple</li>
+						</ul>
+					</div>
+				</ul>
+			</div>
+		</div>
+		<div class="main">
+			<div class="container">
+			<h3 id="mode"></h3>
+				
+			</div>
+		</div>
+		<script type="text/javascript" src="js/setup.js"></script>
+		<script type="text/javascript" src="js/sketch.js"></script>
+	</body>
+</html>
